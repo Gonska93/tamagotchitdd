@@ -16,5 +16,5 @@ public class GraphicSettings {
     public static final double IMAGE_WIDTH = MENU_PANEL_WIDTH*0.7;
     public static final double IMAGE_HEIGHT = MENU_PANEL_HEIGHT*0.5;
     public static final double BUTTON_WIDTH = MENU_PANEL_WIDTH*0.2;
-    public static final double BUTTON_SIDE_MARGIN = GraphicSettings.MENU_PANEL_WIDTH/10.5;
+    public static final double TOGGLE_BUTTON_WIDTH = (IMAGE_WIDTH*0.9)/3;
 }

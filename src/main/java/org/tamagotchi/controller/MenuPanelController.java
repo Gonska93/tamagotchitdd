@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
@@ -28,16 +29,16 @@ public class MenuPanelController {
     private Button quitButton;
 
     @FXML
-    private HBox radioButtonsContainer;
+    private HBox toggleButtonsContainer;
 
     @FXML
-    private RadioButton firstRadioButton;
+    private ToggleButton firstToggleButton;
 
     @FXML
-    private RadioButton secondRadioButton;
+    private ToggleButton secondToggleButton;
 
     @FXML
-    private RadioButton thirdRadioButton;
+    private ToggleButton thirdToggleButton;
 
     @FXML
     private BorderPane choiceImageBorderPane;
@@ -46,7 +47,7 @@ public class MenuPanelController {
     private ImageView choiceImageView;
 
     @FXML
-    private ToggleGroup tg;
+    private ToggleGroup toggleGroup;
 
     @FXML
     public void initialize() {
@@ -71,14 +72,15 @@ public class MenuPanelController {
         choiceImageBorderPane.setPrefWidth(GraphicSettings.IMAGE_WIDTH);
         choiceImageBorderPane.setPrefHeight(GraphicSettings.IMAGE_HEIGHT);
 
-        tg.selectedToggleProperty().addListener(new ChangeImageListener(choiceImageView));
-        firstRadioButton.setUserData(GotchiColor.BLUE);
-        secondRadioButton.setUserData(GotchiColor.YELLOW);
-        thirdRadioButton.setUserData(GotchiColor.ORANGE);
+        toggleGroup.selectedToggleProperty().addListener(new ChangeImageListener(choiceImageView, toggleGroup));
+        firstToggleButton.setUserData(GotchiColor.BLUE);
+        firstToggleButton.setPrefWidth(GraphicSettings.TOGGLE_BUTTON_WIDTH);
+        firstToggleButton.setDisable(true);
 
-        Insets buttonInsets = new Insets(0, GraphicSettings.BUTTON_SIDE_MARGIN, 0, GraphicSettings.BUTTON_SIDE_MARGIN);
-        radioButtonsContainer.setMargin(firstRadioButton, buttonInsets);
-        radioButtonsContainer.setMargin(secondRadioButton, buttonInsets);
-        radioButtonsContainer.setMargin(thirdRadioButton, buttonInsets);
+        secondToggleButton.setUserData(GotchiColor.YELLOW);
+        secondToggleButton.setPrefWidth(GraphicSettings.TOGGLE_BUTTON_WIDTH);
+
+        thirdToggleButton.setUserData(GotchiColor.ORANGE);
+        thirdToggleButton.setPrefWidth(GraphicSettings.TOGGLE_BUTTON_WIDTH);
     }
 }

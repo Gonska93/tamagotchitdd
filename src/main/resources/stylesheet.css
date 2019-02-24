@@ -11,7 +11,8 @@
     -fx-border-color: darkred;
     -fx-border-radius: 70;
     -fx-background-radius: 70;
-    -fx-background-color: linear-gradient(yellow, orange, orangered, red, darkred);
+    -fx-background-color:
+            linear-gradient(yellow, orange, orangered, red, darkred);
     -fx-padding: 10;
     -fx-spacing: 10;
 }
@@ -36,3 +37,34 @@
     -fx-border-width: 3;
     -fx-border-radius: 5;
 }
+
+#toggleButtonsContainer .toggle-button {
+    -fx-cursor: HAND;
+    -fx-opacity: 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+
+#toggleButtonsContainer .toggle-button:selected {
+    -fx-cursor: HAND;
+    -fx-opacity: 0.5;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+
+#firstToggleButton {
+    -fx-background-color:
+            radial-gradient(center 50% -40%, radius 200%, #56dbff 45%, #4e76c8 50%);
+}
+
+#secondToggleButton {
+    -fx-background-color:
+            radial-gradient(center 50% -40%, radius 200%, #ffc419 45%, #fff156 50%);
+}
+
+#thirdToggleButton {
+    -fx-opacity: 0.7;
+    -fx-background-color:
+            radial-gradient(center 50% -40%, radius 200%, orange 45%, orangered 50%);
+}
+
