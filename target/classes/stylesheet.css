@@ -1,0 +1,38 @@
+#choiceImageBorderPane {
+    -fx-border-width: 2;
+    -fx-border-radius: 50;
+    -fx-border-color: darkred;
+    -fx-background-radius: 50;
+    -fx-background-color: white;
+}
+
+#mainMenuContainer {
+    -fx-border-width: 2;
+    -fx-border-color: darkred;
+    -fx-border-radius: 70;
+    -fx-background-radius: 70;
+    -fx-background-color: linear-gradient(yellow, orange, orangered, red, darkred);
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+#mainButtonsContainer {
+    -fx-alignment: center;
+}
+
+
+#mainButtonsContainer {
+   -fx-font-family: "Courier 10 Pitch";
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+
+#mainButtonsContainer .button {
+    -fx-cursor: HAND;
+    -fx-background-color: linear-gradient(yellow, orange, yellow);
+    -fx-background-radius: 3;
+    -fx-border-color: yellow;
+    -fx-border-insets: -2;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../stylesheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tamagotchi.controller.MenuPanelController">
+   <children>
+      <VBox fx:id="mainMenuContainer" spacing="10.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <BorderPane fx:id="choiceImageBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+                     <center>
+                        <ImageView fx:id="choiceImageView" fitHeight="342.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../tamagotchi/blue/left1.png" />
+                           </image>
+                        </ImageView>
+                     </center>
+                  </BorderPane>
+                  <HBox fx:id="radioButtonsContainer" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <RadioButton fx:id="firstRadioButton" mnemonicParsing="false" selected="true" text="Blue">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="tg" />
+                           </toggleGroup>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </RadioButton>
+                        <RadioButton fx:id="secondRadioButton" mnemonicParsing="false" text="Yellow" toggleGroup="$tg" />
+                        <RadioButton fx:id="thirdRadioButton" mnemonicParsing="false" text="Orange" toggleGroup="$tg" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox fx:id="mainButtonsContainer" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button fx:id="startButton" focusTraversable="false" mnemonicParsing="false" opacity="0.5" text="Start" />
+                  <Button fx:id="quitButton" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.5" text="Quit" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
