@@ -1,24 +1,23 @@
-package org.tamagotchi.controller;
+package org.tamagotchi.view;
 
 import javafx.fxml.FXML;
-import javafx.geometry.Insets;
 import javafx.scene.control.Button;
-import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
-import org.tamagotchi.view.GotchiColor;
-import org.tamagotchi.view.GraphicSettings;
-import org.tamagotchi.view.eventhandlers.ChangeImageListener;
-import org.tamagotchi.view.eventhandlers.CloseButtonHandler;
-import org.tamagotchi.view.eventhandlers.OnEnterButtonListener;
-import org.tamagotchi.view.eventhandlers.OnExitButtonListener;
+import javafx.scene.paint.ImagePattern;
+import javafx.scene.shape.Rectangle;
+import javafx.stage.Stage;
+import org.tamagotchi.controller.GameController;
+import org.tamagotchi.model.GotchiColor;
+import org.tamagotchi.view.eventhandlers.*;
 
 public class MenuPanelController {
-
     @FXML
     private VBox mainMenuContainer;
 
@@ -41,10 +40,13 @@ public class MenuPanelController {
     private ToggleButton thirdToggleButton;
 
     @FXML
-    private BorderPane choiceImageBorderPane;
+    private StackPane choiceImageStackPane;
 
     @FXML
     private ImageView choiceImageView;
+
+    @FXML
+    private Rectangle backgroundRectangle;
 
     @FXML
     private ToggleGroup toggleGroup;
@@ -63,16 +65,19 @@ public class MenuPanelController {
         startButton.setOnMouseExited(new OnExitButtonListener());
 
         quitButton.setPrefWidth(GraphicSettings.BUTTON_WIDTH);
-        quitButton.setOnAction(new CloseButtonHandler());
         quitButton.setOnMouseEntered(new OnEnterButtonListener());
         quitButton.setOnMouseExited(new OnExitButtonListener());
     }
 
     private void setupChoiceContainer() {
-        choiceImageBorderPane.setPrefWidth(GraphicSettings.IMAGE_WIDTH);
-        choiceImageBorderPane.setPrefHeight(GraphicSettings.IMAGE_HEIGHT);
+        choiceImageStackPane.setPrefWidth(GraphicSettings.IMAGE_WIDTH);
+        choiceImageStackPane.setPrefHeight(GraphicSettings.IMAGE_HEIGHT);
 
         toggleGroup.selectedToggleProperty().addListener(new ChangeImageListener(choiceImageView, toggleGroup));
+        backgroundRectangle.setArcHeight(96.0);
+        backgroundRectangle.setArcWidth(96.0);
+        Image backgroundImage = new Image(getClass().getResourceAsStream("/background.png"));
+        backgroundRectangle.setFill(new ImagePattern(backgroundImage));
         firstToggleButton.setUserData(GotchiColor.BLUE);
         firstToggleButton.setPrefWidth(GraphicSettings.TOGGLE_BUTTON_WIDTH);
         firstToggleButton.setDisable(true);
@@ -82,5 +87,13 @@ public class MenuPanelController {
 
         thirdToggleButton.setUserData(GotchiColor.ORANGE);
         thirdToggleButton.setPrefWidth(GraphicSettings.TOGGLE_BUTTON_WIDTH);
+    }
+
+    public void setupStartButtonHandler(Stage stage, GameController gameController) {
+        startButton.setOnMouseClicked(new OnStartButtonClickHandler(stage, toggleButtonsContainer, backgroundRectangle, gameController));
+    }
+
+    public void setupCloseButtonHandler(boolean runningState) {
+        quitButton.setOnAction(new OnCloseButtonClickHandler(runningState));
     }
 }

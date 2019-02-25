@@ -1,4 +1,4 @@
-package org.tamagotchi.view;
+package org.tamagotchi.model;
 
 public enum GotchiColor {
     ORANGE("orange"),

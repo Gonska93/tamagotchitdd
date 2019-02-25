@@ -10,45 +10,49 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../stylesheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tamagotchi.controller.MenuPanelController">
+<?import org.tamagotchi.view.ProgressBarMenu?>
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../stylesheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tamagotchi.view.MenuPanelController">
    <children>
       <VBox fx:id="mainMenuContainer" spacing="10.0">
          <children>
-            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
-               <children>
-                  <BorderPane fx:id="choiceImageBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
-                     <center>
-                        <ImageView fx:id="choiceImageView" fitHeight="342.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
-                           <image>
-                              <Image url="@../tamagotchi/blue/left1.png" />
-                           </image>
-                        </ImageView>
-                     </center>
-                  </BorderPane>
-                  <HBox fx:id="toggleButtonsContainer" alignment="CENTER">
+            <BorderPane prefHeight="200.0" prefWidth="200.0">
+               <bottom>
+                  <HBox fx:id="mainButtonsContainer" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
                      <children>
-                        <ToggleButton fx:id="firstToggleButton" mnemonicParsing="false" opacity="0.7" selected="true" text="Blue">
-                           <toggleGroup>
-                              <ToggleGroup fx:id="toggleGroup" />
-                           </toggleGroup>
-                        </ToggleButton>
-                        <ToggleButton fx:id="secondToggleButton" mnemonicParsing="false" opacity="0.7" text="Yellow" toggleGroup="$toggleGroup" />
-                        <ToggleButton fx:id="thirdToggleButton" mnemonicParsing="false" opacity="0.7" text="Orange" toggleGroup="$toggleGroup">
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                        </ToggleButton>
+                        <Button fx:id="startButton" focusTraversable="false" mnemonicParsing="false" opacity="0.5" text="Start" />
+                        <Button fx:id="quitButton" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.5" text="Quit" />
                      </children>
                   </HBox>
-               </children>
-            </VBox>
-            <HBox fx:id="mainButtonsContainer" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-               <children>
-                  <Button fx:id="startButton" focusTraversable="false" mnemonicParsing="false" opacity="0.5" text="Start" />
-                  <Button fx:id="quitButton" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.5" text="Quit" />
-               </children>
-            </HBox>
+               </bottom>
+               <center>
+                  <VBox alignment="TOP_CENTER" prefHeight="293.0" prefWidth="353.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <StackPane fx:id="choiceImageStackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="374.0">
+                           <Rectangle fx:id="backgroundRectangle" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="291.0" stroke="BLACK" strokeType="INSIDE" width="361.0" />
+                              <ImageView fx:id="choiceImageView" fitHeight="273.0" fitWidth="348.0" pickOnBounds="true" BorderPane.alignment="CENTER">
+                                 <image>
+                                    <Image url="@../tamagotchi/blue/left1.png" />
+                                 </image>
+                              </ImageView>
+                           <VBox prefHeight="263.0" prefWidth="128.0" />
+                        </StackPane>
+                        <HBox fx:id="toggleButtonsContainer" alignment="CENTER">
+                           <children>
+                              <ToggleButton fx:id="firstToggleButton" mnemonicParsing="false" opacity="0.7" selected="true" text="Blue">
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="toggleGroup" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton fx:id="secondToggleButton" mnemonicParsing="false" opacity="0.7" text="Yellow" toggleGroup="$toggleGroup" />
+                              <ToggleButton fx:id="thirdToggleButton" mnemonicParsing="false" opacity="0.7" text="Orange" toggleGroup="$toggleGroup"/>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </center>
+            </BorderPane>
          </children>
       </VBox>
    </children>

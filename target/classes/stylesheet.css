@@ -1,4 +1,8 @@
-#choiceImageBorderPane {
+#backgroundRectangle {
+    -fx-opacity: 0;
+}
+
+#choiceImageStackPane {
     -fx-border-width: 2;
     -fx-border-radius: 50;
     -fx-border-color: darkred;

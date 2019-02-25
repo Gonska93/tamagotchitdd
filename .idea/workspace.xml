@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/resources/stylesheet.css" description="#secondToggleButton {&#10;    -fx-background-color:&#10;  ..." line="59" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/resources/stylesheet.css" description="#secondToggleButton {&#10;    -fx-background-color:&#10;  ..." line="63" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1df66e38-ffa8-4312-99ee-5a2dd8c94af4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/MenuPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/MenuPanelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GraphicSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GraphicSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MenuPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeImageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeImageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnEnterButtonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnEnterButtonListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnExitButtonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnExitButtonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/MenuPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MenuPanelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GotchiColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/model/GotchiColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/CloseButtonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnCloseButtonClickHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowDraggedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowPressedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/StartGameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnStartButtonClickHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/MenuPanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/MenuPanel.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fxml/MenuPanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/MenuPanel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/controller/MenuPanelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tamagotchi/controller/MenuPanelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/GraphicSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/GraphicSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/MenuPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/eventhandlers/ChangeImageListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/eventhandlers/ChangeImageListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/eventhandlers/OnExitButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/eventhandlers/OnExitButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/Main$OnWindowDraggedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tamagotchi/Main$OnWindowDraggedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/Main$OnWindowPressedHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tamagotchi/Main$OnWindowPressedHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tamagotchi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/controller/MenuPanelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/GotchiColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/eventhandlers/CloseButtonHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tamagotchi/view/eventhandlers/StartGameHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stylesheet.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,57 +52,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="656">
+              <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
               <folding>
-                <element signature="e#1299#1300#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnStartButtonClickHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1539#1862#0" expanded="true" />
+                <element signature="e#1861#1862#0" expanded="true" />
+                <element signature="e#1877#2005#0" expanded="true" />
+                <element signature="e#2004#2005#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/GameController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/MenuPanelController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/ProgressBarMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+            <state relative-caret-position="195">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#798#1069#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeImageListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GraphicSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -115,6 +114,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/org/tamagotchi/controller</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,20 +141,32 @@
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/handlers/ChangeImageListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/menu/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowDraggedHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowPressedHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MainScene.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnEnterButtonHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MenuPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GraphicSettings.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/MenuPanel.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnExitButtonListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnEnterButtonListener.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/stylesheet.css" />
-        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeImageListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnSelectedToggleButtonClickHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/MenuPanelController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeImageListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowDraggedHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeScreenSize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeWindowSizeAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeWindowSizeActionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GraphicSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MainMenuContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ResizeWindowTranslation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnCloseButtonClickHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/stylesheet.css" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/model/Tamagotchi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/model/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/MenuPanel.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MenuPanelController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnStartButtonClickHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tamagotchi/view/ProgressBarMenu.java" />
       </list>
     </option>
   </component>
@@ -163,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -214,6 +232,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tamagotchi" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tamagotchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamagotchitdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tamagotchi" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,18 +272,27 @@
               <item name="tamagotchi" type="b2602c69:ProjectViewProjectNode" />
               <item name="tamagotchitdd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tamagotchi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tamagotchi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamagotchitdd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551038851104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551100598166" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -319,18 +355,19 @@
       <workItem from="1550231403404" duration="11902000" />
       <workItem from="1550323999053" duration="3015000" />
       <workItem from="1550408318992" duration="226000" />
-      <workItem from="1551012036472" duration="20079000" />
+      <workItem from="1551012036472" duration="20398000" />
+      <workItem from="1551078178802" duration="21124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35421000" />
+    <option name="totallyTimeSpent" value="56864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24156992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2443339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -339,16 +376,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46235418" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32873806" />
+      <window_info active="true" anchor="bottom" x="111" y="665" width="1809" height="171" id="Run" order="2" visible="true" weight="0.11134677" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15270413" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32873806" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32343584" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" x="0" y="0" width="414" height="892" id="Documentation" order="0" side_tool="true" weight="0.33001658" />
@@ -360,7 +397,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32946378" />
+      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.09563295" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,36 +424,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MainRoot.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GameScene.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowDraggedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowPressedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MainScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/com/sun/glass/ui/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -431,41 +438,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GotchiColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/CloseButtonHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MenuPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/MenuPanel.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MenuPanel.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/control/ToggleButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -480,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnExitButtonListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="75" lean-forward="true" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnEnterButtonListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -497,10 +463,219 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GraphicSettings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnSelectedToggleButtonClickHandler.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/control/ToggleGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="159" column="48" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowDraggedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnWindowPressedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnExitButtonListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+          <caret line="27" column="75" lean-forward="true" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/model/GotchiColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeWindowSizeActionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/GraphicSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MainMenuContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MainScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnCloseButtonClickHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/control/ProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeImageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/model/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="2277" selection-start-line="2277" selection-end-line="2277" />
+          <folding>
+            <element signature="e#31407#31408#0" expanded="true" />
+            <element signature="e#31466#31467#0" expanded="true" />
+            <element signature="e#40494#40495#0" expanded="true" />
+            <element signature="e#40528#40529#0" expanded="true" />
+            <element signature="e#92249#92250#0" expanded="true" />
+            <element signature="e#92282#92283#0" expanded="true" />
+            <element signature="e#134895#134896#0" expanded="true" />
+            <element signature="e#134946#134947#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
+          <folding>
+            <element signature="e#24488#24489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/stage/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+          <folding>
+            <element signature="e#6576#6577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="442" selection-start-line="442" selection-end-line="442" />
+          <folding>
+            <element signature="e#23741#23742#0" expanded="true" />
+            <element signature="e#23772#23773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/layout/Pane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="e#4340#4341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/MenuPanel.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="149" selection-start-line="48" selection-start-column="149" selection-end-line="48" selection-end-column="149" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/MenuPanelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="92" column="57" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ResizeWindowTranslation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -509,65 +684,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnSelectedToggleButtonClickHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="656">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/StartGameHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/model/Tamagotchi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/OnStartButtonClickHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1539#1862#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1877#2005#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/eventhandlers/ChangeImageListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/view/ProgressBarMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/scene/control/ToggleGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="159" column="48" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tamagotchi/controller/MenuPanelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#798#1069#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
           </folding>
         </state>
       </provider>
